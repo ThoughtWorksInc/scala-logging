@@ -7,7 +7,6 @@ name := "scala-logging"
 licenses := Seq("Apache 2.0 License" -> url("http://www.apache.org/licenses/LICENSE-2.0.html"))
 homepage := Some(url("https://github.com/typesafehub/scala-logging"))
 incOptions := incOptions.value.withLogRecompileOnMacro(false)
-scalaVersion := Version.scala
 crossScalaVersions := Version.crossScala
 scalacOptions ++= List(
   "-unchecked",
